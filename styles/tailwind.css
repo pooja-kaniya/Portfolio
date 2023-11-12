@@ -1,0 +1,40 @@
+/* styles/tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import '@fortawesome/fontawesome-svg-core/styles.css';
+/* Custom styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to top,  #4d014d, #000000); /* Black to Purple gradient */
+  margin: 0;
+  padding: 0;
+  color: #f8f4f4;
+}
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-bottom: 2px solid white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
