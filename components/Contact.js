@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faEnvelope } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -74,7 +74,7 @@ const Contact = () => {
       <div className="flex space-x-4">
                 <FontAwesomeIcon icon={faLinkedin} />
                 <FontAwesomeIcon icon={faGithub} />
-                <FontAwesomeIcon icon={faEnvelope} />
+              
         </div>
     </div>
 
