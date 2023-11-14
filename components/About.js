@@ -22,7 +22,7 @@ const About = () => {
   const renderEducation = () => (
     <div>
       <h3 className="text-xl font-bold mb-2"></h3>
-      <p>Bachelor's in Computer Science, SUKKUR IBA  University</p>
+      <p>Bachelors in Computer Science, SUKKUR IBA  University</p>
     </div>
   );
 
