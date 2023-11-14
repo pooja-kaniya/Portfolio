@@ -7,7 +7,7 @@ import '../styles/tailwind.css';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Projects from '../components/Projects';
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 
 const HomePage = () => {
   return (
